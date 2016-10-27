@@ -18,6 +18,10 @@ body {
     word-spacing: 0.5em;
 }
 
+ins {
+    text-decoration: none;
+}
+
 #gamecontainer {
     margin-top: 2rem;
     max-height: 100vh;
