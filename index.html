@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> <!--class="fullscreen"-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Super GraVtron</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
+        <script src="js/polyfill.js"></script>
+        <script src="js/wavegen.js"></script>
+        <script src="js/game.js"></script>
+        <link rel="stylesheet" href="css/reset.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body data-bind="css: {fullscreen: fullscreen()}">
+        <!--<span id="fps">0 fps</span>-->
+        <h1>Super GraVtron</h1>
+        <div id="gamecontainer">
+            <div id="gametimer"><span id="minutes" data-bind="text: minutes">0</span>:<span id="seconds" data-bind="text: seconds">00</span></div>
+            <canvas id="gamecanvas" width="1280" height="544">Test</canvas>
+        </div>
+        <!--<div id="intro">
+            <h3>Anleitung</h3>
+            <p>Steuere den Ball mit den Tasten Links und Rechts oder A und D. Weiche Hindernissen aus und halte so lange wie möglich durch.</p>
+            <label for="input_name">Name:</label><input id="input_name" type="text" required placeholder="Name"/>
+            <button id="button_start">Start!</button>
+            <h3>Einstellungen<a href="javascript:void(0);" class="revealer" data-open="false" data-for="settings">ausklappen</a></h3>
+            <div id="settings">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Ball:</td>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>-->
+        <footer><del>Inspired by</del> <ins>Shamelessly ripped off from</ins> <a href="http://thelettervsixtim.es/">VVVVVV</a></footer>
+    </body>
+</html>
